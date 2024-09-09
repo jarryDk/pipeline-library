@@ -2,8 +2,8 @@
 
 def call(String name = 'human') {
 
-  def hello = getHello '${name}'
+  def hello = getHello ${name}
 
-  sayHello '${hello}.'
+  sayHello ${hello}
 
 }
